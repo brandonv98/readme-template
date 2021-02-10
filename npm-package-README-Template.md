@@ -1,23 +1,23 @@
 # Project Title
 
-Foobar is a Python library for dealing with word pluralization.
+Foobar is a applications library for dealing with readme how to.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [npm](https://npmjs.com) to install foobar.
 
 ```bash
-pip install foobar
+$ npm install foobar
 ```
 
 ## Usage
 
-```python
-import foobar
+```js
+const packageName = require('packageName');
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+foobar.use('word') # returns 'words'
+foobar.words('goose') # returns 'geese'
+foobar.whoKnows('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
@@ -26,4 +26,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./licenses)
